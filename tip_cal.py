@@ -12,5 +12,6 @@ while True:
 		print("The percentage tip can only accept 10, 12, or 15!")
 
 amount = total_bill * (1 + (percentage_tip / 100)) / num_people
-print("Each person should pay:", amount)
+final_amount = round(amount, 2)
+print("Each person should pay:", final_amount)
 
